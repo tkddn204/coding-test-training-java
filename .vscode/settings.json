@@ -1,0 +1,7 @@
+{
+  "java.project.sourcePaths": ["app\\src"],
+  "java.project.outputPath": "app\\bin",
+  "java.project.referencedLibraries": ["app/lib/**/*.jar"],
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "interactive"
+}
