@@ -1,6 +1,6 @@
 import java.io.*;
 
-class Main {
+class Programmers {
 
     class Solution {
         // 문제 삽입
@@ -23,7 +23,7 @@ class Main {
         fileInputOutput();
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
              BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out))) {
-            new Main().solve(br);
+            new Programmers().solve(br);
         }
     }
 

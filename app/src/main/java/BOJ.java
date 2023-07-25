@@ -1,9 +1,9 @@
 import java.io.*;
 
-class Template {
+class BOJ {
 
     private static void solve(BufferedReader br) throws IOException {
-        
+
     }
 
     private static StringBuilder res;
@@ -22,8 +22,8 @@ class Template {
         }
     }
 
-    private static String INPUT_PATH = "D:/Projects/coding-test-training-cpp/input.txt";
-    private static String OUTPUT_PATH = "D:/Projects/coding-test-training-cpp/output.txt";
+    private static String INPUT_PATH = "D:\\Projects\\coding-test-training-java\\app\\src\\main\\resources\\input.txt";
+    private static String OUTPUT_PATH = "D:\\Projects\\coding-test-training-java\\app\\src\\main\\resources\\output.txt";
 
     private static void fileInputOutput() throws IOException {
         System.setIn(new FileInputStream(INPUT_PATH));
