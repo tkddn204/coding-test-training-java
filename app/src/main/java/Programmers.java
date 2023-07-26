@@ -2,6 +2,7 @@ import java.io.*;
 
 class Programmers {
 
+    // import java.util.*;
     class Solution {
         // 문제 삽입
         public int solution() {
@@ -14,7 +15,7 @@ class Programmers {
         String input = br.readLine();
         String[] splits = input.split("\t");
 
-
+        // 인풋 삽입
 
         new Solution().solution();
     }
