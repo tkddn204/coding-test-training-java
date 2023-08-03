@@ -17,26 +17,23 @@ class Programmers {
 
         // 인풋 삽입
 
-        new Solution().solution();
+//        new Solution().solution();
     }
 
     public static void main(String args[]) throws Exception {
-        fileInputOutput();
+        if (args.length > 1) fileInputOutput(args[0], args[1]);
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
              BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out))) {
             new Programmers().solve(br);
         }
     }
 
-    private static String INPUT_PATH = "D:\\Projects\\coding-test-training-java\\app\\src\\main\\resources\\input.txt";
-    private static String OUTPUT_PATH = "D:\\Projects\\coding-test-training-java\\app\\src\\main\\resources\\output.txt";
-
-    private static void fileInputOutput() throws IOException {
-        System.setIn(new FileInputStream(INPUT_PATH));
+    private static void fileInputOutput(String inputPath, String outputPath) throws IOException {
+        System.setIn(new FileInputStream(inputPath));
         System.setOut(
             new PrintStream(
                 new BufferedOutputStream(
-                    new FileOutputStream(OUTPUT_PATH)
-            )));
+                    new FileOutputStream(outputPath)
+                )));
     }
 }
